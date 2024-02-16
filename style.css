@@ -1,0 +1,12 @@
+:root {
+    --cor-de-fundo: #1E1E1E;
+}
+body{
+
+    background-color: black;
+}
+
+h2 {
+
+    color: blue;
+} 
