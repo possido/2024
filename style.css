@@ -1,12 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 :root {
-    --cor-de-fundo: #1E1E1E;
+    --cor-de-fundo: #000000;
 }
 body{
 
-    background-color: black;
+    background-color: rgb(158, 93, 182);
 }
 
 h2 {
 
-    color: blue;
+    color: rgb(47, 2, 61);
 } 
+ h3{
+
+    font-family: ' ';
+ }
+
