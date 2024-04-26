@@ -1,12 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 :root{ 
-    --cor-de-fundo: #78aaf0;
-    --verde:#f4f4f5;
-    --branco:#f7f5f5;
-    --botao-ativo:#3f2252;
+    --cor-de-fundo: #1E1E1E;
+    --verde:#6FFF57;
+    --branco:#FFFFFF;
+    --botao-ativo:#3c5e37;
     --botao-inativo: rgba(160, 36, 137, 0.5);
-    --texto-fundo: rgba(207, 8, 243, 0.3);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
 
@@ -16,7 +18,7 @@ font-family: 'lobster', sans-serif;
 }
 
 h2 {
-color: rgb(161, 72, 244);
+color: rgb(14, 14, 15);
 }
 
 .conteudo-principal{
@@ -51,23 +53,4 @@ color: rgb(161, 72, 244);
     width: 100%;
 
 }      
-
-
-.botoes{
-   display: block;
-}
-@media screen and (min-width: 768px){
-    .botoes {
-        display: flex;
-    }
-}
-    .botao:first-child {
-              border-radius: 40px 0 0 0;
-    }
-    .botao:last-child {
-               border-radius: 40px 0 0;
-    }
-.botao.ativo {
-    background-color: var(--botao-ativo);
-    border-bottom: 10px solid var(--verde);
-}
+    

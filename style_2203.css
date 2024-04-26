@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 :root{ 
     --cor-de-fundo: #78aaf0;
     --verde:#f4f4f5;
@@ -51,23 +53,4 @@ color: rgb(161, 72, 244);
     width: 100%;
 
 }      
-
-
-.botoes{
-   display: block;
-}
-@media screen and (min-width: 768px){
-    .botoes {
-        display: flex;
-    }
-}
-    .botao:first-child {
-              border-radius: 40px 0 0 0;
-    }
-    .botao:last-child {
-               border-radius: 40px 0 0;
-    }
-.botao.ativo {
-    background-color: var(--botao-ativo);
-    border-bottom: 10px solid var(--verde);
-}
+    
