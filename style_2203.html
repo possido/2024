@@ -1,22 +1,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
 :root{ 
     --cor-de-fundo: #78aaf0;
-    --verde:#6666e5;
-    --branco:#a1a4f8;
-    --botao-ativo:#12059d;
-    --botao-inativo: rgba(50, 57, 186, 0.5);
-    --texto-fundo: rgba(8, 12, 243, 0.3);
+    --verde:#f4f4f5;
+    --branco:#f7f5f5;
+    --botao-ativo:#3f2252;
+    --botao-inativo: rgba(160, 36, 137, 0.5);
+    --texto-fundo: rgba(207, 8, 243, 0.3);
 }
 
 
 body{
-background-color: rgba(123, 127, 237, 0.866);
+background-color: rgba(232, 182, 226, 0.866);
 font-family: 'lobster', sans-serif;
 }
 
 h2 {
-color: rgb(5, 13, 252);
+color: rgb(161, 72, 244);
 }
 
 .conteudo-principal{
@@ -40,7 +42,7 @@ color: rgb(5, 13, 252);
 }
 
 .botao{
-    font-family: 'lobster',sans-serif;
+    font-family: "lobster",sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -51,23 +53,4 @@ color: rgb(5, 13, 252);
     width: 100%;
 
 }      
-
-
-.botoes{
-   display: block;
-}
-@media screen and (min-width: 768px){
-    .botoes {
-        display: flex;
-    }
-}
-    .botao:first-child {
-              border-radius: 40px 0 0 0;
-    }
-    .botao:last-child {
-               border-radius:0 40px 0 0;
-    }
-.botao.ativo {
-    background-color: var(--botao-ativo);
-    border-bottom: 10px solid var(--verde);
-}
+    
