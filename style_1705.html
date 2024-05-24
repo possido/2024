@@ -52,32 +52,22 @@ color: rgb(7, 9, 87);
 
 }      
 
-.abas-textos{
-    background-color: var(--texto-fundo);
-}
 
+.botoes{
+   display: block;
+}
+@media screen and (min-width: 768px){
+    .botoes {
+        display: flex;
+    }
+}
+    .botao:first-child {
+              border-radius: 40px 0 0 0;
+    }
+    .botao:last-child {
+               border-radius:0 40px 0 0;
+    }
 .botao.ativo {
     background-color: var(--botao-ativo);
     border-bottom: 10px solid var(--verde);
 }
-
-.aba-conteudo.ativo{
-    display: block;
-}
-
-.aba-conteudo{
-    display: none;
-}
-
-.botoes{
-    display: block;
- }
- @media screen and (min-width: 768px){
-     .botoes {
-         display: flex;
-     }
- }
- .botao:first-child {
-               border-radius: 40px 0 0 0;}
- .botao:last-child {
-                border-radius:0 40px 0 0;}
